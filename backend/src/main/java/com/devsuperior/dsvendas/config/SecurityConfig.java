@@ -19,7 +19,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
-	private Environment env;;
+	private Environment env;
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
